@@ -17,7 +17,7 @@ describe("Valida titulo de la pagina",()=>{
     it("Valida titulo",()=>{
         cy.visit("https://www.google.com")
         //vallida titulo de la pagina
-        cy.title().should('eq','Ofrecido por Google')
-        cy.log("Valido correctamente")
+        cy.title().should('eq','Google')
+        cy.log("VALIDA EL NOMBRE CORRECTAMENTE")
     })
 })
